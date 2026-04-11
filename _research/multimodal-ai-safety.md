@@ -12,4 +12,3 @@ papers:
     venue: "Under review"
 ---
 
-*Write about this project here.*

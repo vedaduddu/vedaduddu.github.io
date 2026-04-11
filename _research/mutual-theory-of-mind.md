@@ -12,4 +12,4 @@ papers:
     venue: "CHI 2026 Extended Abstracts"
 ---
 
-*Write about this project here.*
+

@@ -16,4 +16,3 @@ papers:
     venue: "Under review"
 ---
 
-*Write about this project here — what motivated it, what you found interesting, what surprised you. This can be as informal or as detailed as you like.*

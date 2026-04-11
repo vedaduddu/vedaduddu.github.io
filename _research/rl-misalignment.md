@@ -13,4 +13,3 @@ papers:
     link_text: "Blog post"
 ---
 
-*Write about this project here.*

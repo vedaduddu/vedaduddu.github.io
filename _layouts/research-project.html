@@ -26,6 +26,21 @@ layout: default
   </div>
   {% endif %}
 
+  {% if page.post_tag %}
+    {% assign related_posts = site.posts | where_exp: "post", "post.tags contains page.post_tag" %}
+    {% if related_posts.size > 0 %}
+    <div style="margin-bottom:var(--space-xl);">
+      <p style="font-size:var(--text-xs); font-weight:500; text-transform:uppercase; letter-spacing:0.1em; color:var(--color-text-muted); margin-bottom:var(--space-md);">Writing</p>
+      {% for post in related_posts %}
+        <div style="padding:var(--space-md) 0; border-bottom:0.5px solid var(--color-border);">
+          <a href="{{ post.url | relative_url }}" style="font-size:var(--text-sm); font-weight:500; color:var(--color-text); text-decoration:none;">{{ post.title }}</a>
+          <p style="font-size:var(--text-xs); color:var(--color-text-muted); margin:4px 0 0;">{{ post.date | date: "%B %-d, %Y" }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  {% endif %}
+
   {% if content != "" %}
   <div class="post-content">
     {{ content }}

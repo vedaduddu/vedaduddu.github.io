@@ -2,7 +2,7 @@
 layout: post
 title: "The PDF Won. And I'm So Glad It Did."
 category: academic
-tags: [trucey, HCI, AI, research, negotiation, methods]
+tags: [Trucey, HCI, AI, Workplace Communication, Wellbeing]
 ---
 
 I spent months building Trucey. Designing the personality calibration, the theory-grounded advice generation, the role-based rehearsal simulation where an AI would play your difficult boss back at you with enough resistance to actually make you sweat a little. This wasn't a chatbot I threw together. Every design decision was grounded in actual negotiation theory — Brett and Thompson's framework for how power asymmetry shapes these conversations, Bradley and Campbell's model of how difficult workplace interactions unfold across phases, and what the literature tells us about why people fail to negotiate even when they know exactly what they should do. Fear. Perceived risk. The weight of power imbalance. I wanted to build something that addressed all of that.
@@ -74,3 +74,7 @@ We keep asking whether AI is better than what came before. I think the more hone
 The handbook won not despite its simplicity but because of it.
 
 I built something sophisticated and learned something humbling. That feels about right for a first experiment. And honestly, I wouldn't have it any other way.
+
+---
+
+This post is based on my research on AI coaching for workplace negotiations. If you want the full study, the tables, the regression models - you can find the [preprint here.](https://arxiv.org/abs/2509.22545) And if you want to talk about it, reach out.

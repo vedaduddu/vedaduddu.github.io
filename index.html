@@ -1,0 +1,146 @@
+---
+layout: default
+title: Home
+---
+
+<!-- ── Hero ─────────────────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="section-inner">
+    <h1 class="hero-name">Veda Duddu</h1>
+    <p class="hero-meta">MS CS &middot; UIUC</p>
+  </div>
+</section>
+
+<!-- ── About ─────────────────────────────────────────────────────────────── -->
+<section id="about" class="section section--flush-top">
+  <div class="section-inner">
+    <div class="about-grid">
+      <img src="{{ '/assets/img/profile.jpeg' | relative_url }}" alt="Veda Duddu" class="about-photo">
+      <div class="about-text">
+        <p>
+          I'm an HCI researcher building methodology around a simple but underexplored question:
+          how do people understand the systems they use — and how should those systems be designed
+          with that understanding in mind?
+        </p>
+        <p>
+          I came to CS through mathematics at <a href="https://www.ashoka.edu.in/">Ashoka University</a>
+          in India, where I graduated with a BS (Honors) in Math and CS. I tend to think about computing
+          problems through a cognitive and social lens — not just a technical one. I currently TA for
+          CS 173: Discrete Mathematics at UIUC.
+        </p>
+        <p>
+          Outside the lab I'm interested in philosophy of mind, the ethics of technology, and occasional
+          deep dives into topics that have nothing to do with my work — but somehow always connect back to it.
+          The <a href="/blog/">blog</a> is where those threads live.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Research ──────────────────────────────────────────────────────────── -->
+<section id="research" class="section">
+  <div class="section-inner">
+    <p class="section-label">Research</p>
+    <h2 class="section-heading">Current Work</h2>
+
+    <div class="research-grid">
+      {% assign ongoing = site.research | where: "ongoing", true %}
+      {% assign past = site.research | where: "ongoing", false | sort: "sort_year" | reverse %}
+      {% assign sorted = ongoing | concat: past %}
+      {% for project in sorted limit:3 %}
+        <a href="{{ project.url | relative_url }}" class="research-card">
+          <p class="card-years">{{ project.years }}</p>
+          <p class="card-title">{{ project.title }}</p>
+          <p class="card-summary">{{ project.summary }}</p>
+          <div class="collaborator">{{ project.collaborator }}</div>
+        </a>
+      {% endfor %}
+    </div>
+    <a href="{{ '/research/' | relative_url }}" class="see-more-link">All research &rarr;</a>
+  </div>
+</section>
+
+<!-- ── Publications ───────────────────────────────────────────────────────── -->
+<section id="publications" class="section">
+  <div class="section-inner">
+    <p class="section-label">Publications</p>
+    <h2 class="section-heading">Papers &amp; Preprints</h2>
+    <p class="section-note"><sup>✱</sup> denotes equal contribution</p>
+
+    <div class="pub-list">
+
+      <div class="pub-item">
+        <div class="pub-year">2026</div>
+        <div class="pub-details">
+          <p class="pub-title">Not My Truce: Personality Differences in AI-Mediated Workplace Negotiation</p>
+          <p class="pub-authors">Duddu, V., Parekh, J. R., Mao, A., Min, H., Xiao, Z., Das Swain, V., Saha, K.</p>
+          <p class="pub-venue">Under review &middot; <a href="https://arxiv.org/abs/2604.00464" target="_blank" rel="noopener">Preprint</a></p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year">2026</div>
+        <div class="pub-details">
+          <p class="pub-title">Do We Know What They Know We Know? Calibrating Student Trust in AI and Human Responses Through Mutual Theory of Mind</p>
+          <p class="pub-authors">Duddu, V.<sup>✱</sup>, Pal, O.<sup>✱</sup>, Goyal, A., Goel, D., Saha, K.</p>
+          <p class="pub-venue">CHI 2026 Extended Abstracts &middot; <a href="https://arxiv.org/abs/2601.16960" target="_blank" rel="noopener">Preprint</a></p>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-year">2025</div>
+        <div class="pub-details">
+          <p class="pub-title">Does AI Coaching Prepare Us for Workplace Negotiations?</p>
+          <p class="pub-authors">Duddu, V., Parekh, J. R., Mao, A., Min, H., Xiao, Z., Das Swain, V., Saha, K.</p>
+          <p class="pub-venue">Under review &middot; <a href="https://arxiv.org/abs/2509.22545" target="_blank" rel="noopener">Preprint</a></p>
+        </div>
+      </div>
+
+    </div>
+    <a href="{{ '/publications/' | relative_url }}" class="see-more-link">All publications &rarr;</a>
+  </div>
+</section>
+
+<!-- ── Blog preview ───────────────────────────────────────────────────────── -->
+<section id="blog-preview" class="section">
+  <div class="section-inner">
+    <p class="section-label">Blog</p>
+    <h2 class="section-heading">Recent Writing</h2>
+    <p class="section-note">Concepts I'm chewing on, rabbit holes, things that don't fit in a paper.</p>
+
+    <div class="blog-preview-list">
+      {% for post in site.posts limit:3 %}
+        <a href="{{ post.url | relative_url }}" class="blog-preview-item">
+          <div class="blog-preview-meta">
+            <span class="blog-preview-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+            {% if post.category %}
+              <span class="post-category post-category--{{ post.category }}">{{ post.category }}</span>
+            {% endif %}
+          </div>
+          <p class="blog-preview-title">{{ post.title }}</p>
+          {% if post.excerpt %}
+            <p class="blog-preview-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+          {% endif %}
+        </a>
+      {% endfor %}
+    </div>
+
+    <a href="{{ '/blog/' | relative_url }}" class="all-posts-link">All posts &rarr;</a>
+  </div>
+</section>
+
+<!-- ── Contact ────────────────────────────────────────────────────────────── -->
+<section id="contact" class="section section--last">
+  <div class="section-inner">
+    <p class="section-label">Contact</p>
+    <h2 class="section-heading">Get in touch</h2>
+    <p>The best way to reach me is by email: <a href="mailto:veda.duddu@gmail.com">veda.duddu@gmail.com</a></p>
+    <p>I'm happy to talk about research ideas, potential collaborations, or just interesting problems.</p>
+    <div class="contact-links">
+      <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="{{ site.twitter_url }}" target="_blank" rel="noopener">Twitter / X</a>
+      <a href="{{ site.google_scholar_url }}" target="_blank" rel="noopener">Google Scholar</a>
+    </div>
+  </div>
+</section>

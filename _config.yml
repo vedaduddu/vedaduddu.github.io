@@ -1,0 +1,53 @@
+title: Veda Duddu
+tagline: "MS CS · UIUC"
+description: "HCI researcher studying how people understand the systems they use, and how systems should be designed with that in mind."
+baseurl: ""
+url: "https://vedaduddu.github.io"
+
+author:
+  name: Veda Duddu
+  email: veda.duddu@gmail.com
+
+# Social links — leave blank to hide
+github_username: ""
+linkedin_url: "https://www.linkedin.com/in/veda-duddu/"
+twitter_url: "https://x.com/Veda_Duddu"
+google_scholar_url: "https://scholar.google.com/citations?user=3na3PaQAAAAJ&hl=en"
+
+# Sidebar navigation
+nav_links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Research
+    url: /research/
+  - title: Projects
+    url: /projects/
+  - title: Publications
+    url: /publications/
+  - title: Blog
+    url: /blog/
+  - title: CV
+    url: /cv/
+  - title: Contact
+    url: /contact/
+
+# Blog
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .claude
+  - style.css

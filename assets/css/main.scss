@@ -285,11 +285,15 @@ ul, ol {
 }
 
 .site-footer {
-  text-align: center;
-  padding: var(--space-xl) var(--space-lg);
   border-top: var(--border-width) solid var(--color-border);
   font-size: var(--text-xs);
   color: var(--color-text-muted);
+
+  .section-inner {
+    padding-top: var(--space-lg);
+    padding-bottom: var(--space-lg);
+    text-align: center;
+  }
 
   p {
     text-align: center;

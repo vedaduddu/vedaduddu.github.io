@@ -3,7 +3,7 @@ layout: page
 title: CV
 ---
 
-*Full CV available on [request](/contact/).*
+*Download the full CV as a [PDF](/Veda Duddu CV.pdf){:target="_blank"}.*
 
 ---
 
@@ -114,7 +114,6 @@ title: CV
       <p>Ashoka University · Profs. Maya Ramnath  &amp; Subashis Banerjee · </p>
     </div>
   </div>
-</div>
 
   <div class="cv-item">
     <div class="cv-year">Jan - May 2022</div>

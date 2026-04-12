@@ -237,7 +237,7 @@ ul, ol {
 // ── About ─────────────────────────────────────────────────────────────────────
 .about-grid {
   display: grid;
-  grid-template-columns: 148px 1fr;
+  grid-template-columns: 190px 1fr;
   gap: var(--space-xl);
   align-items: start;
   margin-top: var(--space-lg);
@@ -246,7 +246,7 @@ ul, ol {
 .about-photo-col {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--space-md);
 }
 
@@ -258,16 +258,43 @@ ul, ol {
   border: var(--border-width) solid var(--color-border);
 }
 
+.about-contact-label {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-align: left;
+  margin: 0;
+  width: 100%;
+}
+
 .about-social {
   display: flex;
-  gap: var(--space-md);
+  gap: var(--space-lg);
   align-items: center;
+  justify-content: flex-start;
+  width: 100%;
 
   a {
     color: var(--color-text-muted);
     transition: color 0.15s ease;
     display: flex;
     align-items: center;
+    font-size: 18px;
+
+    &:hover { color: var(--color-accent); }
+  }
+}
+
+.site-footer {
+  text-align: center;
+  padding: var(--space-xl) var(--space-lg);
+  border-top: var(--border-width) solid var(--color-border);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+
+  a {
+    color: var(--color-text-muted);
+    text-decoration: underline;
+    text-underline-offset: 2px;
 
     &:hover { color: var(--color-accent); }
   }

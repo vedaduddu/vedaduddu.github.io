@@ -17,7 +17,7 @@ title: Publications
 
 **Do We Know What They Know We Know? Calibrating Student Trust in AI and Human Responses Through Mutual Theory of Mind**  
 **Veda Duddu**<sup>✱</sup>, Olivia Pal<sup>✱</sup>, Agam Goyal, Drishti Goel, Koustuv Saha  
-*CHI 2026 Extended Abstracts* · [Preprint](https://arxiv.org/abs/2601.16960)
+*CHI 2026 Extended Abstracts* · [ACM](https://dl.acm.org/doi/pdf/10.1145/3772363.3799386)
 
 ---
 

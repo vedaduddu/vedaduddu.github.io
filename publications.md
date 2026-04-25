@@ -16,7 +16,7 @@ title: Publications
 ---
 
 **When AI Supports Emotionally Demanding Service Work: Experimental Evidence from Customer Service Interactions**  
-Lei Wang, Hanyi Min, **Veda Duddu**, Koustuv Saha, and Vedant Das Swain
+Lei Wang, Hanyi Min, **Veda Duddu**, Koustuv Saha, and Vedant Das Swain  
 *AI and the Future of Work 2026*
 
 ---

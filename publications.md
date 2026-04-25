@@ -13,6 +13,8 @@ title: Publications
 **Veda Duddu**, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao, Vedant Das Swain, Koustuv Saha  
 *Under review* · [Preprint](https://arxiv.org/abs/2604.00464)
 
+---
+
 **When AI Supports Emotionally Demanding Service Work: Experimental Evidence from Customer Service Interactions**  
 Lei Wang, Hanyi Min, **Veda Duddu**, Koustuv Saha, and Vedant Das Swain
 *AI and the Future of Work 2026*

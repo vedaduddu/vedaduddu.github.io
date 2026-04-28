@@ -130,6 +130,14 @@ title: CV
   <div class="cv-item">
     <div class="cv-year">2022</div>
     <div class="cv-details">
+      <h3>Undergraduate Teaching Excellence Award</h3>
+      <p>Ashoka University CS Department · 1 of 5 recipients out of 30+ assistants</p>
+    </div>
+  </div>
+
+  <div class="cv-item">
+    <div class="cv-year">2022</div>
+    <div class="cv-details">
       <h3>Undergraduate Service Excellence Award</h3>
       <p>Ashoka University CS Department · 1 of 4 recipients out of 300+ students</p>
     </div>

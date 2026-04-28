@@ -30,8 +30,8 @@ nav_links:
     url: /blog/
   - title: CV
     url: /cv/
-  - title: Contact
-    url: /contact/
+  - title: News
+    url: /news/
 
 # Blog
 permalink: /blog/:year/:month/:day/:title/

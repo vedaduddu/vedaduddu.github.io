@@ -3,7 +3,7 @@ layout: page
 title: Publications
 ---
 
-*Papers, preprints, and workshop contributions. <sup>✱</sup> denotes equal contribution.*
+*Papers, preprints, and workshop contributions. <sup>✱</sup> denotes equal contribution. See also: [Public Writing](#public-writing).*
 
 ---
 
@@ -38,3 +38,15 @@ Olivia Pal<sup>✱</sup>, **Veda Duddu**<sup>✱</sup>, Agam Goyal, Drishti Goel
 **The Social Gaze of LLMs: A Literature Review of Multimodal Approaches to Human Behavior Understanding**  
 Zihan Liu, Parisa Rabbani, **Veda Duddu**, Kyle Fan, Madison Lee, Yun Huang  
 *Under review* · [Preprint](https://arxiv.org/abs/2510.23947)
+
+---
+
+## Public Writing
+
+Essays, blog posts, and other writing outside the academic publication pipeline.
+
+---
+
+**From Diamond Mining to Open-World Survival: Alignment and Misalignment in RL Agents**  
+**Veda Duddu**  
+*LessWrong · 2025* · [Blog post](https://www.lesswrong.com/posts/GSuoKJYTQYPktBp8A/from-diamond-mining-to-open-world-survival-alignment-and-1)

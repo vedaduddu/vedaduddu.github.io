@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-The best way to reach me is by email: **[veda.duddu@gmail.com](mailto:veda.duddu@gmail.com)**
+The best way to reach me is by email: **[veda.duddu@gmail.com](mailto:vduddu2@illinois.edu)**
 
 I'm happy to talk about research ideas, potential collaborations, or just interesting problems.
 

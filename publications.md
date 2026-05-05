@@ -48,5 +48,5 @@ Essays, blog posts, and other writing outside the academic publication pipeline.
 ---
 
 **From Diamond Mining to Open-World Survival: Alignment and Misalignment in RL Agents**  
-**Veda Duddu**  
+Daniel Zhang, Melvin Huang, Hassan Dawy, **Veda Duddu**, Kevin Zhu, Sean O'Brien, Vasu Sharma, Sunishchal Dev 
 *LessWrong · 2025* · [Blog post](https://www.lesswrong.com/posts/GSuoKJYTQYPktBp8A/from-diamond-mining-to-open-world-survival-alignment-and-1)

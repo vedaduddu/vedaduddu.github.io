@@ -9,8 +9,8 @@ title: Publications
 
 ### 2026
 
-**Inform, Coach, Relate, Listen: Auditing LLM Caregiving Support Roles** 
-Drishti Goel, Agam Goyal, **Veda Duddu**, Olivia Pal, Jeongah Lee, Qiuyue Joy Zhong, Violeta J. Rodriguez, Daniel S. Brown, Dong Whi Yoo, Ravi Karkar, Koustuv Saha 
+**Inform, Coach, Relate, Listen: Auditing LLM Caregiving Support Roles**  
+Drishti Goel, Agam Goyal, **Veda Duddu**, Olivia Pal, Jeongah Lee, Qiuyue Joy Zhong, Violeta J. Rodriguez, Daniel S. Brown, Dong Whi Yoo, Ravi Karkar, Koustuv Saha  
 *Under review* · [Preprint](https://arxiv.org/abs/2605.29473)
 
 ---

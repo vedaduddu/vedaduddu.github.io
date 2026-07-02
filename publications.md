@@ -50,6 +50,15 @@ title: Publications
     </div>
   </div>
 
+  <div class="pub-item" data-tags="preprint">
+    <div class="pub-year">2026</div>
+    <div class="pub-details">
+      <p class="pub-title">When AI Says "I have been in similar situations": Synthetic Lived Experience in Peer-Like Caregiver Support</p>
+      <p class="pub-authors">Drishti Goel, Agam Goyal, <strong>Veda Duddu</strong>, Olivia Pal, Violeta J. Rodriguez, Daniel S. Brown, Ravi Karkar, Dong Whi Yoo, Koustuv Saha</p>
+      <p class="pub-venue">Under review &middot; <a href="https://arxiv.org/abs/2606.18057" target="_blank" rel="noopener">Preprint</a></p>
+    </div>
+  </div>
+
   <div class="pub-item" data-tags="first-author preprint">
     <div class="pub-year">2026</div>
     <div class="pub-details">

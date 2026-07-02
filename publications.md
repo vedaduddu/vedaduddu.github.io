@@ -14,7 +14,7 @@ title: Publications
 
 <div class="pub-list" id="pub-list">
 
-  <div class="pub-item" data-tags="accepted">
+  <div class="pub-item" data-tags="accepted first-author">
     <div class="pub-year">2026</div>
     <div class="pub-details">
       <p class="pub-title">Do We Know What They Know We Know? Calibrating Student Trust in AI and Human Responses Through Mutual Theory of Mind</p>

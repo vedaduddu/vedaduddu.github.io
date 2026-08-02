@@ -50,7 +50,7 @@ title: Publications
     </div>
   </div>
 
-  <div class="pub-item" data-tags="preprint">
+  <div class="pub-item" data-tags="accepted">
     <div class="pub-year">2026</div>
     <div class="pub-details">
       <p class="pub-title">When AI Says "I have been in similar situations": Synthetic Lived Experience in Peer-Like Caregiver Support</p>

@@ -79,52 +79,17 @@ title: Home
     <p class="section-note"><sup>✱</sup> denotes equal contribution</p>
 
     <div class="pub-list">
-
+      {% assign featured = site.data.publications | where: "featured", true %}
+      {% for pub in featured limit:5 %}
       <div class="pub-item">
-        <div class="pub-year">2026</div>
+        <div class="pub-year">{{ pub.year }}</div>
         <div class="pub-details">
-          <p class="pub-title">Do We Know What They Know We Know? Calibrating Student Trust in AI and Human Responses Through Mutual Theory of Mind</p>
-          <p class="pub-authors">Olivia Pal<sup>✱</sup>, <strong>Veda Duddu</strong><sup>✱</sup>, Agam Goyal, Drishti Goel, Koustuv Saha</p>
-          <p class="pub-venue">CHI 2026 Extended Abstracts &middot; <a href="https://dl.acm.org/doi/pdf/10.1145/3772363.3799386" target="_blank" rel="noopener">ACM</a></p>
+          <p class="pub-title">{{ pub.title }}</p>
+          <p class="pub-authors">{{ pub.authors_html }}</p>
+          <p class="pub-venue">{{ pub.venue }}{% for link in pub.links %} &middot; <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}</p>
         </div>
       </div>
-
-      <div class="pub-item">
-        <div class="pub-year">2026</div>
-        <div class="pub-details">
-          <p class="pub-title">AI-Mediated Negotiation: Design Reflections and Lessons</p>
-          <p class="pub-authors"><strong>Veda Duddu</strong>, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao, Vedant Das Swain, Koustuv Saha</p>
-          <p class="pub-venue">CSCW 2026 Poster &middot; <a href="https://arxiv.org/pdf/2606.21886" target="_blank" rel="noopener">Preprint</a></p>
-        </div>
-      </div>
-
-      <div class="pub-item">
-        <div class="pub-year">2026</div>
-        <div class="pub-details">
-          <p class="pub-title">When AI Supports Emotionally Demanding Service Work: Experimental Evidence from Customer Service Interactions</p>
-          <p class="pub-authors">Lei Wang, Hanyi Min, <strong>Veda Duddu</strong>, Koustuv Saha, Vedant Das Swain</p>
-          <p class="pub-venue">AI and the Future of Work 2026 - Wharton Human-AI Research</p>
-        </div>
-      </div>
-
-      <div class="pub-item">
-        <div class="pub-year">2026</div>
-        <div class="pub-details">
-          <p class="pub-title">Not My Truce: Personality Differences in AI-Mediated Workplace Negotiation</p>
-          <p class="pub-authors"><strong>Veda Duddu</strong>, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao, Vedant Das Swain, Koustuv Saha</p>
-          <p class="pub-venue">Under review &middot; <a href="https://arxiv.org/abs/2604.00464" target="_blank" rel="noopener">Preprint</a></p>
-        </div>
-      </div>
-
-      <div class="pub-item">
-        <div class="pub-year">2025</div>
-        <div class="pub-details">
-          <p class="pub-title">Does AI Coaching Prepare Us for Workplace Negotiations?</p>
-          <p class="pub-authors"><strong>Veda Duddu</strong>, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao, Vedant Das Swain, Koustuv Saha</p>
-          <p class="pub-venue">Under review &middot; <a href="https://arxiv.org/abs/2509.22545" target="_blank" rel="noopener">Preprint</a></p>
-        </div>
-      </div>
-
+      {% endfor %}
     </div>
     <a href="{{ '/publications/' | relative_url }}" class="see-more-link">All publications &rarr;</a>
   </div>

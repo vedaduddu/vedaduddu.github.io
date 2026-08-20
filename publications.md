@@ -3,7 +3,11 @@ layout: page
 title: Publications
 ---
 
-*Papers, preprints, and workshop contributions. <sup>✱</sup> denotes equal contribution. See also: [Public Writing](#public-writing).*
+{% assign total = site.data.publications | size %}
+{% assign accepted_count = site.data.publications | where_exp: "p", "p.tags contains 'accepted'" | size %}
+{% assign first_author_count = site.data.publications | where_exp: "p", "p.tags contains 'first-author'" | size %}
+
+*{{ total }} papers &middot; {{ accepted_count }} accepted &middot; {{ first_author_count }} first-author. <sup>✱</sup> denotes equal contribution. See also: [Public Writing](#public-writing).*
 
 <div class="blog-filters" style="margin: 1.5rem 0 1rem;">
   <button class="filter-btn active" data-filter="all">All</button>
@@ -13,79 +17,16 @@ title: Publications
 </div>
 
 <div class="pub-list" id="pub-list">
-
-  <div class="pub-item" data-tags="accepted first-author">
-    <div class="pub-year">2026</div>
+  {% for pub in site.data.publications %}
+  <div class="pub-item" data-tags="{{ pub.tags | join: ' ' }}">
+    <div class="pub-year">{{ pub.year }}</div>
     <div class="pub-details">
-      <p class="pub-title">Do We Know What They Know We Know? Calibrating Student Trust in AI and Human Responses Through Mutual Theory of Mind</p>
-      <p class="pub-authors">Olivia Pal<sup>✱</sup>, <strong>Veda Duddu</strong><sup>✱</sup>, Agam Goyal, Drishti Goel, Koustuv Saha</p>
-      <p class="pub-venue">CHI 2026 Extended Abstracts &middot; <a href="https://dl.acm.org/doi/pdf/10.1145/3772363.3799386" target="_blank" rel="noopener">ACM</a></p>
+      <p class="pub-title">{{ pub.title }}</p>
+      <p class="pub-authors">{{ pub.authors_html }}</p>
+      <p class="pub-venue">{{ pub.venue }}{% for link in pub.links %} &middot; <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}</p>
     </div>
   </div>
-
-  <div class="pub-item" data-tags="accepted first-author preprint">
-    <div class="pub-year">2026</div>
-    <div class="pub-details">
-      <p class="pub-title">AI-Mediated Negotiation: Design Reflections and Lessons</p>
-      <p class="pub-authors"><strong>Veda Duddu</strong>, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao, Vedant Das Swain, and Koustuv Saha</p>
-      <p class="pub-venue">CSCW 2026 Poster &middot; <a href="https://arxiv.org/pdf/2606.21886" target="_blank" rel="noopener">Preprint</a></p>
-    </div>
-  </div>
-
-  <div class="pub-item" data-tags="accepted">
-    <div class="pub-year">2026</div>
-    <div class="pub-details">
-      <p class="pub-title">When AI Supports Emotionally Demanding Service Work: Experimental Evidence from Customer Service Interactions</p>
-      <p class="pub-authors">Lei Wang, Hanyi Min, <strong>Veda Duddu</strong>, Koustuv Saha, Vedant Das Swain</p>
-      <p class="pub-venue">AI and the Future of Work 2026 &middot; Wharton Human-AI Research</p>
-    </div>
-  </div>
-
-  <div class="pub-item" data-tags="preprint">
-    <div class="pub-year">2026</div>
-    <div class="pub-details">
-      <p class="pub-title">Inform, Coach, Relate, Listen: Auditing LLM Caregiving Support Roles</p>
-      <p class="pub-authors">Drishti Goel, Agam Goyal, <strong>Veda Duddu</strong>, Olivia Pal, Jeongah Lee, Qiuyue Joy Zhong, Violeta J. Rodriguez, Daniel S. Brown, Dong Whi Yoo, Ravi Karkar, Koustuv Saha</p>
-      <p class="pub-venue">Under review &middot; <a href="https://arxiv.org/abs/2605.29473" target="_blank" rel="noopener">Preprint</a></p>
-    </div>
-  </div>
-
-  <div class="pub-item" data-tags="accepted">
-    <div class="pub-year">2026</div>
-    <div class="pub-details">
-      <p class="pub-title">When AI Says "I have been in similar situations": Synthetic Lived Experience in Peer-Like Caregiver Support</p>
-      <p class="pub-authors">Drishti Goel, Agam Goyal, <strong>Veda Duddu</strong>, Olivia Pal, Violeta J. Rodriguez, Daniel S. Brown, Ravi Karkar, Dong Whi Yoo, Koustuv Saha</p>
-      <p class="pub-venue"> HCOMP 2026 &middot; <a href="https://arxiv.org/abs/2606.18057" target="_blank" rel="noopener">Preprint</a></p>
-    </div>
-  </div>
-
-  <div class="pub-item" data-tags="first-author preprint">
-    <div class="pub-year">2026</div>
-    <div class="pub-details">
-      <p class="pub-title">Not My Truce: Personality Differences in AI-Mediated Workplace Negotiation</p>
-      <p class="pub-authors"><strong>Veda Duddu</strong>, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao, Vedant Das Swain, Koustuv Saha</p>
-      <p class="pub-venue">Under review &middot; <a href="https://arxiv.org/abs/2604.00464" target="_blank" rel="noopener">Preprint</a></p>
-    </div>
-  </div>
-
-  <div class="pub-item" data-tags="first-author preprint">
-    <div class="pub-year">2025</div>
-    <div class="pub-details">
-      <p class="pub-title">Does AI Coaching Prepare Us for Workplace Negotiations?</p>
-      <p class="pub-authors"><strong>Veda Duddu</strong>, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao, Vedant Das Swain, Koustuv Saha</p>
-      <p class="pub-venue">Under review &middot; <a href="https://arxiv.org/abs/2509.22545" target="_blank" rel="noopener">Preprint</a></p>
-    </div>
-  </div>
-
-  <div class="pub-item" data-tags="preprint">
-    <div class="pub-year">2025</div>
-    <div class="pub-details">
-      <p class="pub-title">The Social Gaze of LLMs: A Literature Review of Multimodal Approaches to Human Behavior Understanding</p>
-      <p class="pub-authors">Zihan Liu, Parisa Rabbani, <strong>Veda Duddu</strong>, Kyle Fan, Madison Lee, Yun Huang</p>
-      <p class="pub-venue">Under review &middot; <a href="https://arxiv.org/abs/2510.23947" target="_blank" rel="noopener">Preprint</a></p>
-    </div>
-  </div>
-
+  {% endfor %}
 </div>
 
 <p id="no-pubs" style="display:none; text-align:center; color:var(--color-text-muted); font-style:italic; padding:2rem 0;">No publications match this filter.</p>

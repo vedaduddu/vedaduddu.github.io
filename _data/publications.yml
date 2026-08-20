@@ -1,0 +1,77 @@
+- title: "Do We Know What They Know We Know? Calibrating Student Trust in AI and Human Responses Through Mutual Theory of Mind"
+  year: 2026
+  authors_html: "Olivia Pal<sup>✱</sup>, <strong>Veda Duddu</strong><sup>✱</sup>, Agam Goyal, Drishti Goel, Koustuv Saha"
+  venue: "CHI 2026 Extended Abstracts"
+  tags: [accepted, first-author]
+  links:
+    - label: ACM
+      url: "https://dl.acm.org/doi/pdf/10.1145/3772363.3799386"
+  featured: true
+
+- title: "AI-Mediated Negotiation: Design Reflections and Lessons"
+  year: 2026
+  authors_html: "<strong>Veda Duddu</strong>, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao, Vedant Das Swain, and Koustuv Saha"
+  venue: "CSCW 2026 Poster"
+  tags: [accepted, first-author]
+  links:
+    - label: Preprint
+      url: "https://arxiv.org/pdf/2606.21886"
+  featured: true
+
+- title: "When AI Supports Emotionally Demanding Service Work: Experimental Evidence from Customer Service Interactions"
+  year: 2026
+  authors_html: "Lei Wang, Hanyi Min, <strong>Veda Duddu</strong>, Koustuv Saha, Vedant Das Swain"
+  venue: "AI and the Future of Work 2026 · Wharton Human-AI Research"
+  tags: [accepted]
+  links: []
+  featured: true
+
+- title: "Inform, Coach, Relate, Listen: Auditing LLM Caregiving Support Roles"
+  year: 2026
+  authors_html: "Drishti Goel, Agam Goyal, <strong>Veda Duddu</strong>, Olivia Pal, Jeongah Lee, Qiuyue Joy Zhong, Violeta J. Rodriguez, Daniel S. Brown, Dong Whi Yoo, Ravi Karkar, Koustuv Saha"
+  venue: "Under review"
+  tags: [preprint]
+  links:
+    - label: Preprint
+      url: "https://arxiv.org/abs/2605.29473"
+  featured: false
+
+- title: "When AI Says \"I have been in similar situations\": Synthetic Lived Experience in Peer-Like Caregiver Support"
+  year: 2026
+  authors_html: "Drishti Goel, Agam Goyal, <strong>Veda Duddu</strong>, Olivia Pal, Violeta J. Rodriguez, Daniel S. Brown, Ravi Karkar, Dong Whi Yoo, Koustuv Saha"
+  venue: "HCOMP 2026"
+  tags: [accepted]
+  links:
+    - label: Preprint
+      url: "https://arxiv.org/abs/2606.18057"
+  featured: false
+
+- title: "Not My Truce: Personality Differences in AI-Mediated Workplace Negotiation"
+  year: 2026
+  authors_html: "<strong>Veda Duddu</strong>, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao, Vedant Das Swain, Koustuv Saha"
+  venue: "Under review"
+  tags: [first-author, preprint]
+  links:
+    - label: Preprint
+      url: "https://arxiv.org/abs/2604.00464"
+  featured: true
+
+- title: "Does AI Coaching Prepare Us for Workplace Negotiations?"
+  year: 2025
+  authors_html: "<strong>Veda Duddu</strong>, Jash Rajesh Parekh, Andy Mao, Hanyi Min, Ziang Xiao, Vedant Das Swain, Koustuv Saha"
+  venue: "Under review"
+  tags: [first-author, preprint]
+  links:
+    - label: Preprint
+      url: "https://arxiv.org/abs/2509.22545"
+  featured: true
+
+- title: "The Social Gaze of LLMs: A Literature Review of Multimodal Approaches to Human Behavior Understanding"
+  year: 2025
+  authors_html: "Zihan Liu, Parisa Rabbani, <strong>Veda Duddu</strong>, Kyle Fan, Madison Lee, Yun Huang"
+  venue: "Under review"
+  tags: [preprint]
+  links:
+    - label: Preprint
+      url: "https://arxiv.org/abs/2510.23947"
+  featured: false

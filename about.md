@@ -5,7 +5,7 @@ title: About
 
 Hi, I'm Veda — an HCI researcher, a first year PhD student at UIUC.
 
-My research sits at the intersection of human-computer interaction, cognitive science, and AI. *As a first year PhD student, I don't know where I am going but my interests currently lie in indentity, one's awareness of it and it's manifestation with technology* Right now I'm working through that question in the context of AI, because that's where the gap between what systems do and what people think they do is most consequential.
+My research sits at the intersection of human-computer interaction, cognitive science, and AI. *As a first year PhD student, I don't know where I am going (right of passage I have been told) but my interests currently lie in different aspects of one's indentity, their awareness of it and it's manifestation with technology.* 
 
 I came to CS through mathematics at <a href="https://www.ashoka.edu.in/">Ashoka University</a> in India, where I graduated with a BS (Honors) in Math and CS. I tend to think about computing problems through a cognitive and social lens, not just a technical one. I currently TA for CS 173: Discrete Mathematics at <a href="https://siebelschool.illinois.edu/" target="_blank" rel="noopener">UIUC</a>.
 I am advised by <a href="https://koustuv.com/" target="_blank" rel="noopener">Koustuv Saha</a> in the onCare Lab.

@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Hi, I'm Veda — an HCI researcher finishing my MS at UIUC, advised by [Koustuv Saha](https://koustuv.com/) in the onCare Lab.
+Hi, I'm Veda — an HCI researcher, a first year PhD student at UIUC, advised by [Koustuv Saha](https://koustuv.com/) in the onCare Lab.
 
 My research sits at the intersection of human-computer interaction, cognitive science, and AI. The through-line is a question I keep coming back to: *how do people form mental models of the systems they use, and how do we design systems that account for — and communicate back to — those models?* Right now I'm working through that question in the context of AI, because that's where the gap between what systems do and what people think they do is most consequential.
 
@@ -17,7 +17,7 @@ Since coming to UIUC for my MS, I've worked across three labs — the onCare Lab
 
 ## Beyond research
 
-Outside the lab I'm interested in philosophy of mind, the ethics of technology, and the occasional deep dive into topics that have nothing to do with my work but end up somehow connecting back to it. The [blog](/blog/) is where those threads live — a mix of research thinking and genuine rabbit holes.
+Outside the lab I'm interested in philosophy of mind, the ethics of technology, and the occasional deep dive into topics that have nothing to do with my work but end up somehow connecting back to it. 
 
 ---
 

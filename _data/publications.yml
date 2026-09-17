@@ -21,20 +21,8 @@
 - title: "When AI Supports Emotionally Demanding Service Work: Experimental Evidence from Customer Service Interactions"
   year: 2026
   authors_html: "Lei Wang, Hanyi Min, <strong>Veda Duddu</strong>, Koustuv Saha, Vedant Das Swain"
-  venue: "AI and the Future of Work 2026 · Wharton Human-AI Research"
+  venue: "Conference on Information Systems and Technology (CIST) 2026"
   tags: [accepted]
-  links: []
-  featured: true
-
-- title: "Inform, Coach, Relate, Listen: Auditing LLM Caregiving Support Roles"
-  year: 2026
-  authors_html: "Drishti Goel, Agam Goyal, <strong>Veda Duddu</strong>, Olivia Pal, Jeongah Lee, Qiuyue Joy Zhong, Violeta J. Rodriguez, Daniel S. Brown, Dong Whi Yoo, Ravi Karkar, Koustuv Saha"
-  venue: "Under review"
-  tags: [preprint]
-  links:
-    - label: Preprint
-      url: "https://arxiv.org/abs/2605.29473"
-  featured: false
 
 - title: "When AI Says \"I have been in similar situations\": Synthetic Lived Experience in Peer-Like Caregiver Support"
   year: 2026
@@ -44,6 +32,25 @@
   links:
     - label: Preprint
       url: "https://arxiv.org/abs/2606.18057"
+  featured: false
+
+- title: "When AI Supports Emotionally Demanding Service Work: Experimental Evidence from Customer Service Interactions"
+  year: 2026
+  authors_html: "Lei Wang, Hanyi Min, <strong>Veda Duddu</strong>, Koustuv Saha, Vedant Das Swain"
+  venue: "AI and the Future of Work 2026 · Wharton Human-AI Research"
+  tags: [accepted]
+  links: []
+  featured: true
+
+
+- title: "Inform, Coach, Relate, Listen: Auditing LLM Caregiving Support Roles"
+  year: 2026
+  authors_html: "Drishti Goel, Agam Goyal, <strong>Veda Duddu</strong>, Olivia Pal, Jeongah Lee, Qiuyue Joy Zhong, Violeta J. Rodriguez, Daniel S. Brown, Dong Whi Yoo, Ravi Karkar, Koustuv Saha"
+  venue: "Under review"
+  tags: [preprint]
+  links:
+    - label: Preprint
+      url: "https://arxiv.org/abs/2605.29473"
   featured: false
 
 - title: "Not My Truce: Personality Differences in AI-Mediated Workplace Negotiation"

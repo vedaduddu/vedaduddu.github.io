@@ -16,6 +16,8 @@
   links:
     - label: Preprint
       url: "https://arxiv.org/pdf/2606.21886"
+    - label: ACM
+      url: "https://dl.acm.org/doi/pdf/10.1145/3785651.3831527"
   featured: true
 
 - title: "When AI Says \"I have been in similar situations\": Synthetic Lived Experience in Peer-Like Caregiver Support"

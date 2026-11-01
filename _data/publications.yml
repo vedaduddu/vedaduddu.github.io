@@ -39,6 +39,16 @@
   featured: true
 
 
+- title: "Secondhand Stress: How Stressful Disclosures Affect Psychosocial Wellbeing in Online Graduate Admissions Communities"
+  year: 2026
+  authors_html: "<strong>Veda Duddu</strong>, Agam Goyal, Sabelle Huang, Ayush Umashankar Prasad, Mingquan Yi, Koustuv Saha"
+  venue: "Under review"
+  tags: [preprint]
+  links:
+    - label: Preprint
+      url: "https://arxiv.org/pdf/2610.22657"
+  featured: false
+
 - title: "Inform, Coach, Relate, Listen: Auditing LLM Caregiving Support Roles"
   year: 2026
   authors_html: "Drishti Goel, Agam Goyal, <strong>Veda Duddu</strong>, Olivia Pal, Jeongah Lee, Qiuyue Joy Zhong, Violeta J. Rodriguez, Daniel S. Brown, Dong Whi Yoo, Ravi Karkar, Koustuv Saha"
@@ -72,7 +82,7 @@
 - title: "The Social Gaze of LLMs: A Literature Review of Multimodal Approaches to Human Behavior Understanding"
   year: 2025
   authors_html: "Zihan Liu, Parisa Rabbani, <strong>Veda Duddu</strong>, Kyle Fan, Madison Lee, Yun Huang"
-  venue: "Under review"
+  venue: "arXiv"
   tags: [preprint]
   links:
     - label: Preprint

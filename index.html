@@ -52,7 +52,7 @@ title: Home
 
     <div class="pub-list">
       {% assign featured = site.data.publications | where: "featured", true %}
-      {% for pub in featured limit:5 %}
+      {% for pub in featured limit:4 %}
       <div class="pub-item">
         <div class="pub-year">{{ pub.year }}</div>
         <div class="pub-details">

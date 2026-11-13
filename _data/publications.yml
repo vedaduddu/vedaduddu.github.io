@@ -43,7 +43,7 @@
   year: 2026
   authors_html: "<strong>Veda Duddu</strong>, Agam Goyal, Sabelle Huang, Ayush Umashankar Prasad, Mingquan Yi, Koustuv Saha"
   venue: "Under review"
-  tags: [preprint]
+  tags: [preprint, first-author]
   links:
     - label: Preprint
       url: "https://arxiv.org/pdf/2610.22657"
